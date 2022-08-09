@@ -14,15 +14,12 @@
  * limitations under the License.
  */
 
-package net.linguica.gradle.maven.settings
+package fr.rmanibus.gradle.maven.settings
 
 import groovy.transform.CompileStatic
-import org.apache.maven.model.InputLocation
 import org.apache.maven.model.Profile
-import org.apache.maven.model.building.ModelProblem
 import org.apache.maven.model.building.ModelProblemCollector
 import org.apache.maven.model.building.ModelProblemCollectorRequest
-import org.apache.maven.model.path.DefaultPathTranslator
 import org.apache.maven.model.profile.DefaultProfileActivationContext
 import org.apache.maven.model.profile.DefaultProfileSelector
 import org.apache.maven.model.profile.activation.FileProfileActivator

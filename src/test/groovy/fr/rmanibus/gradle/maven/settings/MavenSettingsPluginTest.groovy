@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package net.linguica.gradle.maven.settings
+package fr.rmanibus.gradle.maven.settings
 
 import org.apache.maven.settings.Mirror
 import org.apache.maven.settings.Profile
@@ -29,7 +29,7 @@ class MavenSettingsPluginTest extends AbstractMavenSettingsTest {
     @Test
     void applyMavenSettingsPlugin() {
         project.with {
-            apply plugin: 'net.linguica.maven-settings'
+            apply plugin: 'fr.rmanibus.maven-settings'
         }
 
         assertTrue(project.plugins.hasPlugin(MavenSettingsPlugin.class))
