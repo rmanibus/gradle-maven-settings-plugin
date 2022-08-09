@@ -32,8 +32,8 @@ java {
 }
 
 pluginBundle {
-    website = 'https://github.com/mark-vieira/gradle-maven-settings-plugin'
-    vcsUrl = 'https://github.com/mark-vieira/gradle-maven-settings-plugin'
+    website = 'https://github.com/rmanibus/gradle-maven-settings-plugin'
+    vcsUrl = 'https://github.com/rmanibus/gradle-maven-settings-plugin'
     description = 'Gradle plugin for exposing Maven settings file configuration to Gradle project.'
     tags = ['settings', 'maven']
 
@@ -43,7 +43,7 @@ gradlePlugin {
 
     plugins {
         mavenSettings {
-            id = 'net.linguica.maven-settings'
+            id = 'io.github.rmanibus.maven-settings'
             displayName = 'Maven Settings Plugin'
             implementationClass = 'net.linguica.gradle.maven.settings.MavenSettingsPlugin'
         }

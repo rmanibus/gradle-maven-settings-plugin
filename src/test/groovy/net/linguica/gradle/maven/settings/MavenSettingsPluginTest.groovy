@@ -29,7 +29,7 @@ class MavenSettingsPluginTest extends AbstractMavenSettingsTest {
     @Test
     void applyMavenSettingsPlugin() {
         project.with {
-            apply plugin: 'net.linguica.maven-settings'
+            apply plugin: 'io.github.rmanibus.maven-settings'
         }
 
         assertTrue(project.plugins.hasPlugin(MavenSettingsPlugin.class))

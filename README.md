@@ -10,7 +10,7 @@ This plugin is hosted on the [Gradle Plugin Portal](https://plugins.gradle.org/p
 To use the plugin, add the following to your `build.gradle` file.
     
     plugins {
-      id 'net.linguica.maven-settings' version '0.5'
+      id 'io.github.rmanibus.maven-settings' version '0.7'
     }
     
 For Gradle 2.0 or earlier you must add the following:
@@ -23,11 +23,11 @@ For Gradle 2.0 or earlier you must add the following:
         }
         
         dependencies {
-            classpath 'net.linguica.gradle:maven-settings-plugin:0.5'
+            classpath 'io.github.rmanibus.gradle:maven-settings-plugin:0.7'
         }
     }
 
-    apply plugin: 'net.linguica.maven-settings'
+    apply plugin: 'io.github.rmanibus.maven-settings'
 
 ## Mirrors
 The plugin exposes Maven-like mirror capabilities. The plugin will properly register and enforce any 
